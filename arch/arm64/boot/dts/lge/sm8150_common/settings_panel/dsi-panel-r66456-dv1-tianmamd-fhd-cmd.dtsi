@@ -368,6 +368,14 @@
 		};
 	};
 };
+/*
+&spmi_bus {
+	qcom,pmi8998@3 {
+		labibb: qpnp-labibb-regulator {
+			status = "disabled";
+		};
+	};
+};
 */
 &mdss_dsi1 {
 	status = "disabled";
